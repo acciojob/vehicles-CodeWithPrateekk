@@ -7,7 +7,7 @@ public class F1 extends Car {
     }
 
     public F1(String type, boolean isManual) {
-           super.setName(type);
+           super.setType(type);
            super.setManual(isManual);
     }
 
