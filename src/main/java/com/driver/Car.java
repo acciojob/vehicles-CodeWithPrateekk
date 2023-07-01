@@ -14,15 +14,14 @@ public class Car extends Vehicle {
     }
 
 
-    public Car(int wheels,String type,int doors,int gears,boolean isManual,int currentGear,int seats)
-    {
-        currentGear = 1;
+    public Car(int wheels,String type,int doors,int gears,boolean isManual,int seats)
+    { super();
+        this.currentGear = 1;
         this.wheels = wheels;
         this.type = type;
         this.doors = doors;
         this.gears = gears;
         this.isManual=isManual;
-        this.currentGear=currentGear;
         this.seats=seats;
     }
 
